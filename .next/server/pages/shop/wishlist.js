@@ -150,7 +150,7 @@ function Wishlist(props) {
     href: `/product/default/${product.slug}`,
     className: "product-image"
   }, __jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + product.pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[0].url,
     alt: "product"
   }))), __jsx("h4", {
     className: "product-title"

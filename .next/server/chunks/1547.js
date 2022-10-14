@@ -457,7 +457,7 @@ function DetailOne(props) {
   }, __jsx(_components_features_alink__WEBPACK_IMPORTED_MODULE_4__/* .default */ .Z, {
     href: `/product/default/${product.slug}`
   }, __jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + product[0].pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[0].url,
     alt: "product",
     width: product[0].pictures[0].width,
     height: product[0].pictures[0].height

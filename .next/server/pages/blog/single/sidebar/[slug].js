@@ -140,14 +140,14 @@ function BlogSidebarPage(props) {
     }
   }, post.type !== 'video' ? __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_3__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + post.image[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + post.image[0].url,
     threshold: 500,
     effect: "blur"
   }) : __jsx((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, __jsx("div", {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_3__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + post.image[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + post.image[0].url,
     threshold: 500,
     effect: "blur"
   }), __jsx("a", {
@@ -178,7 +178,7 @@ function BlogSidebarPage(props) {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_3__.LazyLoadImage, {
     alt: "Post",
-    src: `${"http://176.53.65.213:8000/api/" + item.url}`,
+    src: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url}`,
     threshold: 500,
     effect: "blur"
   }))))), __jsx("div", {

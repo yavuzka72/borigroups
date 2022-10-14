@@ -93,9 +93,9 @@ function GalleryDefault(props) {
   }, "Top") : "", !product.stock || product.stock == 0 ? __jsx("span", {
     className: "product-label label-out"
   }, "Out of Stock") : "", __jsx(react_image_magnifiers__WEBPACK_IMPORTED_MODULE_1__.Magnifier, {
-    imageSrc: "http://176.53.65.213:8000/api/" + product[0].pictures[0].url,
+    imageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[0].url,
     imageAlt: "product",
-    largeImageSrc: "http://176.53.65.213:8000/api/" + product[0].pictures[0].url // Optional
+    largeImageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[0].url // Optional
     ,
     dragToMove: false,
     mouseActivation: "hover",
@@ -119,16 +119,16 @@ function GalleryDefault(props) {
   }, product[0].pictures.map((item, index) => __jsx("button", {
     className: `product-gallery-item ${0 === index ? 'active' : ''}`,
     key: product[0].id + '-' + index,
-    onClick: e => changeBgImage(e, `${"http://176.53.65.213:8000/api/" + item.url}`, index)
+    onClick: e => changeBgImage(e, `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url}`, index)
   }, __jsx("div", {
     className: "img-wrapper h-100"
   }, __jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + product[0].pictures[index].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[index].url,
     alt: "product back"
   }))))))), isOpen ? __jsx((react_image_lightbox__WEBPACK_IMPORTED_MODULE_2___default()), {
-    mainSrc: "http://176.53.65.213:8000/api/" + product[0].pictures[photoIndex].url,
-    nextSrc: "http://176.53.65.213:8000/api/" + product[0].pictures[(photoIndex + 1) % product[0].pictures.length].url,
-    prevSrc: "http://176.53.65.213:8000/api/" + product[0].pictures[(photoIndex + product[0].pictures.length - 1) % product[0].pictures.length].url,
+    mainSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[photoIndex].url,
+    nextSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[(photoIndex + 1) % product[0].pictures.length].url,
+    prevSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[(photoIndex + product[0].pictures.length - 1) % product[0].pictures.length].url,
     onCloseRequest: closeLightBox,
     onMovePrevRequest: moveNextPhoto,
     onMoveNextRequest: movePrevPhoto,

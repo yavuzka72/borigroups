@@ -485,7 +485,7 @@ function HeaderSearch() {
     className: "autocomplete-suggestion",
     key: `search-result-${index}`
   }, header_search_jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
-    src: "http://176.53.65.213:8000/api/" + product.sm_pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.sm_pictures[0].url,
     width: 40,
     height: 40,
     alt: "product"
@@ -595,7 +595,7 @@ function CartMenu(props) {
     href: `/product/default/${item.slug}`,
     className: "product-image"
   }, cart_menu_jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + item[0].pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item[0].pictures[0].url,
     alt: "product"
   }))), cart_menu_jsx("button", {
     className: "btn-remove",
@@ -825,7 +825,7 @@ function MainMenu() {
   }, main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-1`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-1`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -836,7 +836,7 @@ function MainMenu() {
   }, "01 - furniture store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-2`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-2`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -847,7 +847,7 @@ function MainMenu() {
   }, "02 - furniture store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-3`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-3`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -858,7 +858,7 @@ function MainMenu() {
   }, "03 - electronic store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-4`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-4`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -869,7 +869,7 @@ function MainMenu() {
   }, "04 - electronic store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-5`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-5`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -880,7 +880,7 @@ function MainMenu() {
   }, "05 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-6`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-6`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -891,7 +891,7 @@ function MainMenu() {
   }, "06 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-7`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-7`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -902,7 +902,7 @@ function MainMenu() {
   }, "07 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-8`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-8`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -913,7 +913,7 @@ function MainMenu() {
   }, "08 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-9`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-9`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -924,7 +924,7 @@ function MainMenu() {
   }, "09 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-10`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-10`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -935,7 +935,7 @@ function MainMenu() {
   }, "10 - shoes store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-11`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-11`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -946,7 +946,7 @@ function MainMenu() {
   }, "11 - furniture simple store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-12`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-12`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -957,7 +957,7 @@ function MainMenu() {
   }, "12 - fashion simple store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-13`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-13`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -968,7 +968,7 @@ function MainMenu() {
   }, "13 - market"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-14`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-14`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -979,7 +979,7 @@ function MainMenu() {
   }, "14 - market fullwidth"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-15`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-15`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -990,7 +990,7 @@ function MainMenu() {
   }, "15 - lookbook 1"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-16`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-16`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1001,7 +1001,7 @@ function MainMenu() {
   }, "16 - lookbook 2"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-17`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-17`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1012,7 +1012,7 @@ function MainMenu() {
   }, "17 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-18`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-18`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1023,7 +1023,7 @@ function MainMenu() {
   }, "18 - fashion store (with sidebar)"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-19`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-19`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1034,7 +1034,7 @@ function MainMenu() {
   }, "19 - games store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-20`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-20`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1045,7 +1045,7 @@ function MainMenu() {
   }, "20 - book store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-21`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-21`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1056,7 +1056,7 @@ function MainMenu() {
   }, "21 - sport store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-22`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-22`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1067,7 +1067,7 @@ function MainMenu() {
   }, "22 - tools store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-23`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-23`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1078,7 +1078,7 @@ function MainMenu() {
   }, "23 - fashion left navigation store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-24`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-24`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1089,7 +1089,7 @@ function MainMenu() {
   }, "24 - extreme sport store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-25`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-25`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1100,7 +1100,7 @@ function MainMenu() {
   }, "25 - jewelry store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-26`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-26`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1111,7 +1111,7 @@ function MainMenu() {
   }, "26 - market store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-27`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-27`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1122,7 +1122,7 @@ function MainMenu() {
   }, "27 - fashion store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-28`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-28`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1133,7 +1133,7 @@ function MainMenu() {
   }, "28 - food market store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-29`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-29`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1144,7 +1144,7 @@ function MainMenu() {
   }, "29 - t-shirts store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-30`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-30`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1155,7 +1155,7 @@ function MainMenu() {
   }, "30 - headphones store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-31`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-31`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1166,7 +1166,7 @@ function MainMenu() {
   }, "31 - yoga store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-32`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-32`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1177,7 +1177,7 @@ function MainMenu() {
   }, "32 - sunglasses store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-33`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-33`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -1188,7 +1188,7 @@ function MainMenu() {
   }, "33 - cosmetics store"))), main_menu_jsx("div", {
     className: "demo-item hidden"
   }, main_menu_jsx("a", {
-    href: `${"https://d-themes.com/react/molla/"}demo-34`
+    href: `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}demo-34`
   }, main_menu_jsx("span", {
     className: "demo-bg",
     style: {
@@ -2140,9 +2140,9 @@ function QuickViewModal(props) {
       'nav': false
     }
   }, product[0].pictures.map((item, index) => quickview_modal_jsx(external_react_image_magnifiers_.Magnifier, {
-    imageSrc: "http://176.53.65.213:8000/api/" + item.url,
+    imageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url,
     imageAlt: "product",
-    largeImageSrc: "http://176.53.65.213:8000/api/" + item.url // Optional
+    largeImageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url // Optional
     ,
     dragToMove: false,
     mouseActivation: "hover",
@@ -2167,7 +2167,7 @@ function QuickViewModal(props) {
     className: "lazy-overlay"
   }), quickview_modal_jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
     alt: "Thumbnail",
-    src: "http://176.53.65.213:8000/api/" + product[0].pictures[index].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product[0].pictures[index].url,
     width: "100%",
     height: "auto",
     className: "d-block"

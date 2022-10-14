@@ -141,13 +141,13 @@ function ProductTwelve(props) {
     href: `/product/default/${product.slug}`
   }, __jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
     alt: "product",
-    src: "http://176.53.65.213:8000/api/" + product.pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[0].url,
     threshold: 500,
     effect: "black and white",
     wrapperClassName: "product-image"
   }), product.pictures.length >= 2 ? __jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
     alt: "product",
-    src: "http://176.53.65.213:8000/api/" + product.pictures[1].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[1].url,
     threshold: 500,
     effect: "black and white",
     wrapperClassName: "product-image-hover"
@@ -415,7 +415,7 @@ function post_four_PostFour(props) {
     className: "lazy-overlay"
   }), post_four_jsx(LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + post.image[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + post.image[0].url,
     threshold: 500,
     effect: "blur",
     height: "auto"

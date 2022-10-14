@@ -55,7 +55,7 @@ function Breadcrumb(props) {
   }), __jsx("span", null, "Prev"), __jsx("div", {
     className: "product-detail"
   }, __jsx("figure", null, __jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + prev.sm_pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + prev.sm_pictures[0].url,
     alt: "product",
     width: prev.sm_pictures[0].width,
     height: prev.sm_pictures[0].height
@@ -74,7 +74,7 @@ function Breadcrumb(props) {
   }), __jsx("div", {
     className: "product-detail"
   }, __jsx("figure", null, __jsx("img", {
-    src: "http://176.53.65.213:8000/api/" + next.sm_pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + next.sm_pictures[0].url,
     alt: "product",
     width: next.sm_pictures[0].width,
     height: next.sm_pictures[0].height

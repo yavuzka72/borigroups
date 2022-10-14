@@ -95,7 +95,7 @@ function BlogSidebar(props) {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_2__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + '/uploads/post_1_b9361c0eac.jpg',
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + '/uploads/post_1_b9361c0eac.jpg',
     threshold: 500,
     effect: "blur",
     height: "80"
@@ -110,7 +110,7 @@ function BlogSidebar(props) {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_2__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + '/uploads/post_4_be80872f91.jpg',
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + '/uploads/post_4_be80872f91.jpg',
     threshold: 500,
     effect: "blur",
     height: "80"
@@ -125,7 +125,7 @@ function BlogSidebar(props) {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_2__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + '/uploads/post_5_3c9d9563f6.jpg',
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + '/uploads/post_5_3c9d9563f6.jpg',
     threshold: 500,
     effect: "blur",
     height: "80"
@@ -140,7 +140,7 @@ function BlogSidebar(props) {
     className: "lazy-overlay"
   }), __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_2__.LazyLoadImage, {
     alt: "Post",
-    src: "http://176.53.65.213:8000/api/" + '/uploads/post_2_a2b4601de7.jpg',
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + '/uploads/post_2_a2b4601de7.jpg',
     threshold: 500,
     effect: "blur",
     height: "80"

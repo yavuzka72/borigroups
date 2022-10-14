@@ -136,13 +136,13 @@ function ProductTen(props) {
     href: `/product/default/${product.slug}`
   }, __jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
     alt: "product",
-    src: "http://176.53.65.213:8000/api/" + product.sm_pictures[0].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.sm_pictures[0].url,
     threshold: 500,
     effect: "black and white",
     wrapperClassName: "product-image"
   }), product.sm_pictures.length >= 2 ? __jsx(external_react_lazy_load_image_component_.LazyLoadImage, {
     alt: "product",
-    src: "http://176.53.65.213:8000/api/" + product.sm_pictures[1].url,
+    src: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.sm_pictures[1].url,
     threshold: 500,
     effect: "black and white",
     wrapperClassName: "product-image-hover"

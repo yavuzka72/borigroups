@@ -12,7 +12,7 @@ exports.modules = {
 /* harmony import */ var apollo_boost__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(apollo_boost__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const API_URI = `${"http://176.53.65.213:8000"}/graphql`;
+const API_URI = `${"https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/"}/graphql`;
 const apolloClient = new (apollo_boost__WEBPACK_IMPORTED_MODULE_1___default())({
   uri: API_URI,
   cache: new apollo_boost__WEBPACK_IMPORTED_MODULE_1__.InMemoryCache()

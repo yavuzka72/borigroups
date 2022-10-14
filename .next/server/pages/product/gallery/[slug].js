@@ -65,9 +65,9 @@ function GalleryExtended(props) {
     adClass: "product-gallery-carousel owl-full owl-nav-dark cols-1 cols-md-2 cols-lg-3",
     options: data/* mainSlider9 */.if
   }, product.pictures.map((item, index) => __jsx(external_react_image_magnifiers_.Magnifier, {
-    imageSrc: "http://176.53.65.213:8000/api/" + item.url,
+    imageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url,
     imageAlt: "product",
-    largeImageSrc: "http://176.53.65.213:8000/api/" + item.url // Optional
+    largeImageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url // Optional
     ,
     dragToMove: false,
     mouseActivation: "hover",

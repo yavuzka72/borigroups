@@ -100,9 +100,9 @@ function GallerySticky(props) {
       backgroundColor: '#f4f4f4'
     }
   }, __jsx(external_react_image_magnifiers_.Magnifier, {
-    imageSrc: "http://176.53.65.213:8000/api/" + item.url,
+    imageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url,
     imageAlt: "product",
-    largeImageSrc: "http://176.53.65.213:8000/api/" + item.url // Optional
+    largeImageSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + item.url // Optional
     ,
     dragToMove: false,
     mouseActivation: "hover",
@@ -120,9 +120,9 @@ function GallerySticky(props) {
   }, __jsx("i", {
     className: "icon-arrows"
   }))))), isOpen ? __jsx((external_react_image_lightbox_default()), {
-    mainSrc: "http://176.53.65.213:8000/api/" + product.pictures[photoIndex].url,
-    nextSrc: "http://176.53.65.213:8000/api/" + product.pictures[(photoIndex + 1) % product.pictures.length].url,
-    prevSrc: "http://176.53.65.213:8000/api/" + product.pictures[(photoIndex + product.pictures.length - 1) % product.pictures.length].url,
+    mainSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[photoIndex].url,
+    nextSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[(photoIndex + 1) % product.pictures.length].url,
+    prevSrc: "https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/api/" + product.pictures[(photoIndex + product.pictures.length - 1) % product.pictures.length].url,
     onCloseRequest: closeLightBox,
     onMovePrevRequest: moveNextPhoto,
     onMoveNextRequest: movePrevPhoto,

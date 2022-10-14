@@ -3,6 +3,6 @@ module.exports = {
     trailingSlash: true,
     env: {
         PUBLIC_URL: process.env.NODE_ENV === 'production' ? `/react/molla/demo-7/` : '/',
-        APP_URL: process.env.NODE_ENV === 'production' ? 'https://d-themes.com/react/molla/' : 'http://localhost/'
+        APP_URL: process.env.NODE_ENV === 'production' ? 'https://borigroups-yavuzka72.vercel.app/react/molla/demo-7/' : 'http://localhost/'
     }
 }
