@@ -1,2 +1,4 @@
 node_modules
 node_modules
+# static folder for DigitalOcean App Platform
+_static

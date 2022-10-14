@@ -23,7 +23,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1__.default {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {
       lang: "en"
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, null, __jsx("base", {
-      href: "/react/molla/demo-undefined/"
+      href: "/react/molla/demo-7/"
     }), __jsx("link", {
       rel: "stylesheet",
       href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CPoppins:300,400,500,600,700"

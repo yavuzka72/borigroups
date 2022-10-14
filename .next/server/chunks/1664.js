@@ -936,7 +936,7 @@ let detectDomainLocale;
 
 if (false) {}
 
-const basePath = "/react/molla/demo-undefined" || 0;
+const basePath = "/react/molla/demo-7" || 0;
 
 function buildCancellationError() {
   return Object.assign(new Error('Route Cancelled'), {
