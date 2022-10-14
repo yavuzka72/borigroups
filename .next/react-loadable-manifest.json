@@ -1,0 +1,39 @@
+{
+  "../node_modules/next-apollo/dist/index.es.js -> @apollo/client/react/ssr": {
+    "id": 407,
+    "files": [
+      "static/chunks/framework-38eecfb8ccbbf4341679.js",
+      "static/chunks/407.bef86b3728fc4f0c1099.js"
+    ]
+  },
+  "blog/mask/masonry.jsx -> isotope-layout": {
+    "id": 3391,
+    "files": [
+      "static/chunks/3391.aa0b1628065f0dcddff1.js"
+    ]
+  },
+  "blog/masonry/2cols.jsx -> isotope-layout": {
+    "id": 3391,
+    "files": [
+      "static/chunks/3391.aa0b1628065f0dcddff1.js"
+    ]
+  },
+  "blog/masonry/3cols.jsx -> isotope-layout": {
+    "id": 3391,
+    "files": [
+      "static/chunks/3391.aa0b1628065f0dcddff1.js"
+    ]
+  },
+  "blog/masonry/4cols.jsx -> isotope-layout": {
+    "id": 3391,
+    "files": [
+      "static/chunks/3391.aa0b1628065f0dcddff1.js"
+    ]
+  },
+  "blog/masonry/sidebar.jsx -> isotope-layout": {
+    "id": 3391,
+    "files": [
+      "static/chunks/3391.aa0b1628065f0dcddff1.js"
+    ]
+  }
+}
